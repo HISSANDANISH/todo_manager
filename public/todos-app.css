@@ -1,0 +1,115 @@
+body{
+  font-family: OpenSans,sans-serif;
+  max-width: 600px;
+  margin:0 auto;
+  margin-top: 32px;
+}
+.TodoPage-title{
+  font-family: OpenSans-Semibold;
+  font-size: 20px;
+  color: #453C52;
+  letter-spacing: 0.14px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+.AddTodo{
+  height: 32px;
+  display: flex;
+  align-items: stretch;
+}
+.AddTodo-text{
+border: 1px solid #BFB8CC;
+border-radius: 4px;
+font-size: 14px;
+color: #726A7E;
+letter-spacing: 0.1px;
+padding: 6px 12px;
+margin-right: 10px;
+}
+.AddTodo-date{
+  padding-left: 6px;
+  font-size: 14;
+  color: #453C52;
+  border: 1px solid #BFB8CC;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.AddTodo-button{
+  background: #48BB78;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 0.1px;
+  border: 1px solid transparent;
+}
+.TodoSection{
+  margin-top: 24px;
+}
+.TodoSectionTitle{
+  display: flex;
+  margin-bottom: 11px;
+  color: #453C52;
+  align-items: center;
+}
+.TodoSectionTitle-text{
+
+  font-family: OpenSans-Semibold;
+  font-size: 14px;
+  color: #453C52;
+  letter-spacing: 0.1px;
+  margin-right: 8px;
+  font-weight: 600;
+
+}
+.TodoSectionTitle-remainingCount{
+  font-size: 12px;
+  color: #453C52;
+  letter-spacing: 0.09px;
+}
+.TodoItem{
+
+}
+.TodoItem-container:hover
+{
+  background-color: #f1ede7;
+}
+.TodoItem-container{
+  display:flex;
+  margin-bottom: 16px;
+  padding-left: 2px 8px;
+  align-items: center;
+}
+.TodoItem-checkbox{
+  width: 16px;
+  height: 16px;
+}
+.TodoItem-text{
+  width: 180px;
+  font-family: OpenSans;
+  font-size: 14px;
+  color: #453C52;
+  letter-spacing: 0.1px;
+  margin-left: 8px;
+  margin-right: 10px;
+}
+.TodoItem-overduelabel{
+  font-size: 12px;
+  color: #C53030;
+  letter-spacing: 0.09p
+}
+.TodoItem-deleteicon > img{
+  width: 16px;
+}
+.TodoItem-deleteicon{
+  visibility: hidden;
+  margin-left: 8px;
+}
+.TodoItem-container:hover .TodoItem-deleteicon{
+  visibility: visible;
+}
+.TodoItem-date{
+  font-family: OpenSans;
+  font-size: 12px;
+  color: #726A7E;
+  letter-spacing: 0.09px;
+}
