@@ -18,13 +18,13 @@ body{
   align-items: stretch;
 }
 .AddTodo-text{
-border: 1px solid #BFB8CC;
-border-radius: 4px;
-font-size: 14px;
-color: #726A7E;
-letter-spacing: 0.1px;
-padding: 6px 12px;
-margin-right: 10px;
+  border: 1px solid #BFB8CC;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #726A7E;
+  letter-spacing: 0.1px;
+  padding: 6px 12px;
+  margin-right: 10px;
 }
 .AddTodo-date{
   padding-left: 6px;
@@ -52,25 +52,19 @@ margin-right: 10px;
   align-items: center;
 }
 .TodoSectionTitle-text{
-
   font-family: OpenSans-Semibold;
   font-size: 14px;
   color: #453C52;
   letter-spacing: 0.1px;
   margin-right: 8px;
   font-weight: 600;
-
 }
 .TodoSectionTitle-remainingCount{
   font-size: 12px;
   color: #453C52;
   letter-spacing: 0.09px;
 }
-.TodoItem{
-
-}
-.TodoItem-container:hover
-{
+.TodoItem-container:hover{
   background-color: #f1ede7;
 }
 .TodoItem-container{
