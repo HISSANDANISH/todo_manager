@@ -96,7 +96,7 @@ body{
   margin-left: 8px;
   margin-right: 10px;
 }
-.Todoitem-dueDate{
+.TodoItem-dueDate{
   font-size: 11px;
   color: rgb(153, 128, 187);
 }
