@@ -86,6 +86,16 @@ body{
   margin-left: 8px;
   margin-right: 10px;
 }
+.TodoItem-textCompleted{
+  text-decoration: line-through;
+  width: 180px;
+  font-family: OpenSans;
+  font-size: 14px;
+  color: #453C52;
+  letter-spacing: 0.1px;
+  margin-left: 8px;
+  margin-right: 10px;
+}
 .Todoitem-dueDate{
   font-size: 11px;
   color: rgb(153, 128, 187);

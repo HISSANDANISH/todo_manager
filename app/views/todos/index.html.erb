@@ -7,10 +7,10 @@
         <input class="AddTodo-button" type="button" value="Add">
       </section>
       <%= render partial: "todo-section", locals:
-      {section_title: "Overdue", todos: Todo.overdue, show_dueDate: true}%>
+      {section_title: "Overdue", todos: Todo.overdue, show_dueDate: true, show_completed: false}%>
       <%= render partial: "todo-section", locals:
-      {section_title: "Due Today", todos: Todo.due_today, show_dueDate: false}%>
+      {section_title: "Due Today", todos: Todo.due_today, show_dueDate: false, show_completed:true}%>
       <%= render partial: "todo-section", locals:
-      {section_title: "Due Later", todos: Todo.due_later, show_dueDate: true}%>
+      {section_title: "Due Later", todos: Todo.due_later, show_dueDate: true, show_completed:true}%>
     </article>
   </main>
