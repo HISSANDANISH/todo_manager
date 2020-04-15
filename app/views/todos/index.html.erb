@@ -2,15 +2,18 @@
     <article>
       <h1 class="TodoPage-title">My To-do List</h1>
       <%= form_with(url: "/todos", method: "POST",class: "AddTodo") do %>
-        <input class="AddTodo-text" type="text" placeholder="what's next?" name="todo_text">
-        <input class="AddTodo-date" type="date" name="due_date">
-        <input class="AddTodo-button" type="submit" value="Add">
+        <%= text_field_tag("todo_text","",placeholder: "what's next?",class: "AddTodo-text")%>
+        <%= date_field_tag("due_date",nil,class: "AddTodo-date")%>
+        <%= button_tag("Add",type: "submit",class: "AddTodo-button")%>
       <% end %>
-      <%= render partial: "todo-section", locals:
-      {section_title: "Overdue", todos: Todo.overdue, show_dueDate: true}%>
-      <%= render partial: "todo-section", locals:
-      {section_title: "Due Today", todos: Todo.due_today, show_dueDate: false}%>
-      <%= render partial: "todo-section", locals:
-      {section_title: "Due Later", todos: Todo.due_later, show_dueDate: true}%>
+      <%= render partial: "todo-section", locals: {
+        section_title: "Overdue", todos: Todo.overdue, show_dueDate: true
+        } %>
+      <%= render partial: "todo-section", locals: {
+        section_title: "Due Today", todos: Todo.due_today, show_dueDate: false
+        } %>
+      <%= render partial: "todo-section", locals: {
+        section_title: "Due Later", todos: Todo.due_later, show_dueDate: true
+        } %>
     </article>
   </main>
