@@ -101,10 +101,13 @@ body{
   color: rgb(153, 128, 187);
 }
 .TodoItem-deleteicon > img{
-  width: 16px;
+  height: 12px;
+  width: 12px;
 }
 .TodoItem-deleteicon{
   visibility: hidden;
+  height: 16px;
+  width: 16px;
   margin-left: 8px;
 }
 .TodoItem-container:hover .TodoItem-deleteicon{
