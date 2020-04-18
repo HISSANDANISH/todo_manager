@@ -1,0 +1,23 @@
+.NewUsers-title{
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.Form-section{
+  margin-bottom: 30px;
+}
+.ForInput-label{
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: rgb(156, 153, 153)
+}
+.FormInput{
+  font-size: 20px;
+  padding: 6px;
+}
+.SubmitButton{
+  font-size: 20px;
+  padding: 20px;
+  border: 0;
+  border-radius: 4px;
+  color: rgb(38, 219, 38);
+}
