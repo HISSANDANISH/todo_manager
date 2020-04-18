@@ -7,13 +7,13 @@
         <%= button_tag("Add",type: "submit",class: "AddTodo-button")%>
       <% end %>
       <%= render partial: "todo-section", locals: {
-        section_title: "Overdue", todos: Todo.overdue, show_dueDate: true
+        section_title: "Overdue", todos: @todos.overdue, show_dueDate: true
         } %>
       <%= render partial: "todo-section", locals: {
-        section_title: "Due Today", todos: Todo.due_today, show_dueDate: false
+        section_title: "Due Today", todos: @todos.due_today, show_dueDate: false
         } %>
       <%= render partial: "todo-section", locals: {
-        section_title: "Due Later", todos: Todo.due_later, show_dueDate: true
+        section_title: "Due Later", todos: @todos.due_later, show_dueDate: true
         } %>
     </article>
   </main>
